@@ -1,19 +1,82 @@
 import { Inter } from 'next/font/google'
-import Link from 'next/link'
-
+import styles from '@/styles/Home.module.css'
+import Layout from '@/components/Layout';
+import Image from 'next/image';
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home () {
   return (
-    <>
-    <header>
-      <ul>
-        <li><Link href="/">Home</Link></li>
-        <li><Link href="/blog">Blog</Link></li>
-        <li><Link href="/users">Users</Link></li>
-      </ul>
-    </header>
-    <h1>Welcome Ilham</h1> 
-    </>
+    <Layout pageTitle='Home Page'>
+      <Image src="/profile.jpg" width={200} height={200} alt='profile'/>
+          <h1 className={styles['title-homepage']}>Welcome Ilham</h1> 
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <Image src="/gambar2.jpg" width={200} height={200} alt='gambar 2'/>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi fugit magnam maiores, natus adipisci fugiat architecto dolor nam libero debitis officia ducimus sapiente tempore minus nihil quibusdam ex facere!</p>
+          <Image src="/gambar3.jpg" width={200} height={200} alt='gambar3'/>
+    </Layout>
   );
 }
